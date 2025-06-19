@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      type="text/javascript"
+      src="/___vscode_livepreview_injected_script"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription</title>
+    <link rel="stylesheet" href="subscription.css" />
+  </head>
+  <body>
+    <!-- Narrow sidebar -->
+    <div class="narrow-sidebar">
+      <div class="nav-item">
+        <a href="#"><img src="photos/Frame.svg" alt="" /></a>
+      </div>
+      <div class="nav-item active">
+        <a href="#"><img src="photos/clients.svg" alt="" /></a>
+      </div>
+      <div class="nav-item">
+        <a href="#"><img src="photos/profile.svg" alt="" /></a>
+      </div>
+      <div class="nav-item">
+        <a href="#"><img src="photos/setting.svg" alt="" /></a>
+      </div>
+      <div class="nav-item">
+        <a href="#"><img src="photos/subtract.svg" alt="" /></a>
+      </div>
+      <div class="nav-item">
+        <a href="#"><img src="photos/logout.svg" alt="" /></a>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="main">
+      <div class="topbar">
+        <div class="search-box">
+          <a href="#"><img src="photos/search.svg" alt="" /></a>
+          <input id="search-box-id" type="text" placeholder="Search Clients" />
+        </div>
+        <div class="icons">
+          <a href="#"
+            ><img
+              src="photos/notification.svg"
+              class="icon notification"
+              alt=""
+          /></a>
+          <a href="#"><img src="photos/language.svg" class="icon" alt="" /></a>
+          <div class="user-profile">
+            <a href="#"><img src="photos/user-profile.jpg" alt="User" /></a>
+            <span>John Doe</span>
+          </div>
+        </div>
+      </div>
+
+      <section class="add-client">
+        <h1 class="head-text">Add New Client</h1>
+      </section>
+
+      <section class="section-4">
+        <div class="section-5">
+          <div class="content">
+            <!-- Sidebar -->
+            <div class="sidebar">
+              <div class="step active">
+                <div class="step-icon">
+                  <a href="#"><img src="photos/Icon.svg" alt="" /></a>
+                </div>
+                <div class="step-text">
+                  <small>Step 1</small><span>General Information</span>
+                </div>
+              </div>
+              <div class="step active">
+                <div class="step-icon">
+                  <a href="#"><img src="photos/Icon Container.svg" alt="" /></a>
+                </div>
+                <div class="step-text">
+                  <small>Step 2</small><span>Subscription</span>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-icon">
+                  <a href="#"
+                    ><img src="photos/Icon Container (1).svg" alt=""
+                  /></a>
+                </div>
+                <div class="step-text">
+                  <small>Step 3</small><span>Localization</span>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-icon">
+                  <a href="#"
+                    ><img src="photos/Icon Container (2).svg" alt=""
+                  /></a>
+                </div>
+                <div class="step-text">
+                  <small>Step 4</small><span>Branding</span>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-icon">
+                  <a href="#"
+                    ><img src="photos/Icon Container (3).svg" alt=""
+                  /></a>
+                </div>
+                <div class="step-text">
+                  <small>Step 5</small><span>Security</span>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <!-- Form container -->
+            <div class="form-container">
+              <h2>Subscription</h2>
+              <div class="no-1">
+                <form class="subscription-form">
+                  <div class="form-group">
+                    <label
+                      >Subscription Plan<span class="required">*</span></label
+                    >
+                    <select>
+                      <option>Basic</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>Billing Cycle</label>
+                    <select>
+                      <option>Monthly</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label
+                      >Subscription Model<span class="required">*</span></label
+                    >
+                    <select>
+                      <option>Prepaid</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>Number of Users</label>
+                    <input type="number" placeholder="Enter Number of Users" />
+                  </div>
+
+                  <div class="form-group">
+                    <label>Subscription Start Date</label>
+                    <div class="form-date">
+                      <input
+                        type="text"
+                        placeholder="Choose Date"
+                        class="date-input"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Subscription Start Date</label>
+                    <div class="form-date">
+                      <input type="text" placeholder="Choose Date" />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Amount</label>
+                    <input type="text" placeholder="Enter Amount" />
+                  </div>
+
+                  <div class="form-group amc-group">
+                    <!-- start  -->
+                    <div class="amc-toggle">
+                      <span><label class="label-amc">AMC</label></span>
+                      <!-- khtm  -->
+                      <input type="checkbox" id="amc" checked />
+                      <label for="amc" class="switch"></label>
+                      <!-- khtm -->
+                      <input type="text" placeholder="Enter Charges" />
+                    </div>
+                    <!-- end  -->
+                  </div>
+
+                  <div class="form-group full-width">
+                    <label>Description</label>
+                    <textarea placeholder="Enter Description"></textarea>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Modules Acces control  -->
+              <div class="no-1">
+                <div class="access-card">
+                  <h3>Modules Access Control</h3>
+                  <div class="access-box">
+                    <div class="access-header">
+                      <strong>Modules</strong>
+                    </div>
+                    <div class="access-item">
+                      <input type="checkbox" checked />
+                      <label>Select All</label>
+                    </div>
+                    <div class="access-item">
+                      <input type="checkbox" checked />
+                      <label>Dashboard</label>
+                    </div>
+                    <div class="access-item">
+                      <input type="checkbox" checked />
+                      <button class="expand">
+                        <a href="#"><img src="photos/plus.svg" alt="" /></a>
+                      </button>
+                      <label>HR & Payroll</label>
+                    </div>
+                    <div class="access-item">
+                      <input type="checkbox" checked />
+                      <button class="expand">
+                        <a href="#"><img src="photos/minus.svg" alt="" /></a>
+                      </button>
+                      <label>Inventory</label>
+                    </div>
+                    <div class="access-subitem">
+                      <input type="checkbox" checked />
+                      <label>Item Information</label>
+                    </div>
+                    <div class="access-subitem">
+                      <input type="checkbox" checked />
+                      <label>Stock Adjustment</label>
+                    </div>
+                    <div class="access-subitem">
+                      <input type="checkbox" checked />
+                      <label>Stock Transfer</label>
+                    </div>
+                    <div class="access-item">
+                      <input type="checkbox" checked />
+                      <button class="expand">
+                        <a href="#"><img src="photos/plus.svg" alt="" /></a>
+                      </button>
+                      <label>Reports</label>
+                    </div>
+                    <div class="access-item">
+                      <input type="checkbox" checked />
+                      <button class="expand">
+                        <a href="#"><img src="photos/plus.svg" alt="" /></a>
+                      </button>
+                      <label>Settings</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <div class="button-group">
+  <button class="btn previous">Previous</button>
+  <div class="right-buttons">
+    <button class="btn cancel">Cancel</button>
+    <button class="btn save-next">Save & Next</button>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>
